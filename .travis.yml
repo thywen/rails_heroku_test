@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - 2.2
+- 2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: CxJ46XMv3czzTyqDlaZC1MKqh/Ur6SNGADp6c9AUT+TGt61ai7o6ipn7nXV9Vam7Dwses9MyjBOItpIee5HNBxqZk/rgchF3vKHTPf7ZNq406Wgpcg3N+GJEl8r82dgg7ihyyGF4h4F2yj6+jBoAs+NqJA907ilhoxLCqdl55s6EmU3fj3I6rReZFPJmbidPOczn3ioemZBP2HJvpxVoXiaBKB6tsjykMXqdpDb/25HRLx5+SGIr7HpEotSug6GyhRTq8i2U+3AAkPgQyvb7YXHz1qaFc7PxXzIVrwFon6wZzKSg/JNE0JrH6wuwgtXDffHq9NsaBtx3Gg3DDmXD8CzygjDUG6QD+b0GTehfQyDMaoocdLU74Gh9/EKY7Pes9hEQ4SYZmGJJmLeyvD/8lup+Jpc6nr9VaBRQ+hNET9lSzFJ5D31xD38+2DAkojzadoh9hb8sUtgBQvQl4Tf9QCUFSsWznW0hiAMSnhsycERgsZru4bvdZcRceExHdOmlRvUa3x67R5GtAVYVtnrHD+4VZInHTFClHsXyrcJlOjl6C7vemPuJ+X+eTFTpAyoOnf+E8QQhHSs1He7erpo8sLynMMBxchVP0RrmE82du283OqsFY2dOfT2GMFGBsEqMxf1XvL/kAEdujNJEXWrOIimYemN2mmJdLsRsbYQQ9tE=
+  app: glacial-brushlands-79711
+  on:
+    repo: thywen/rails_heroku_test
