@@ -1,6 +1,15 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/krollsw1/workspace/rails_heroku_test/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/krollsw1/workspace/rails_heroku_test/app/models/test.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/krollsw1/workspace/rails_heroku_test/app/controllers/application_controller.rb": [
         0,
         0,
@@ -14,12 +23,8 @@
         0,
         0,
         0
-      ],
-      "/Users/krollsw1/workspace/rails_heroku_test/app/helpers/application_helper.rb": [
-        0,
-        0
       ]
     },
-    "timestamp": 1467718661
+    "timestamp": 1470909674
   }
 }
